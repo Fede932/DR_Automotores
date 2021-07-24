@@ -1,0 +1,25 @@
+
+/* Propiedades del Footer */
+
+.footer-prop {
+    @include textprop (20px);
+    background-color: rgba($bg-color, 0.876);
+    margin: auto;
+}
+
+iframe{
+    width: 450px;
+    height: 280px;
+    margin-left: 6px;
+}
+
+.logo-redes{
+    border-radius: 25px;
+    width: 60px;
+}
+
+.copyright{
+    text-align: center;
+    @include textprop (15px);
+    background-color: black;
+}

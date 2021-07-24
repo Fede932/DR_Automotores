@@ -1,0 +1,18 @@
+/* Propiedades de las letras */
+
+
+@mixin textprop ($size) {  
+font-family:'Montserrat','Calibri','Arial';
+color:  rgb(217, 224, 230);
+text-decoration: none;
+font-size: $size;
+}
+
+
+/* colores predeterminados */
+
+$hover-color:  chartreuse;
+$bg-color: rgb(23, 88, 88);
+
+
+

@@ -1,0 +1,60 @@
+/* Propiedades del nav  */
+
+
+.Menu {
+    text-decoration: none;
+    list-style: none;
+    background-color: rgba($bg-color,0.867);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    }
+
+   
+
+        li {
+            float: left;
+              &:hover > ul {
+                display: flex;
+            }
+        }   
+
+            a{         
+                @include textprop (15px);
+                &:hover {
+                    color: $hover-color;
+                } 
+                            
+            }
+     
+
+            ul{
+                display: none;
+                position: absolute;
+                flex-direction: column;
+                
+            
+                li{
+                    position: relative;
+                    display: block;
+                    padding:  5px;
+                    font-size: 15px;
+                    list-style: none;
+                }
+
+                    a{
+                        @include textprop (15px);
+                        background-color: rgba($bg-color,0.867);
+                        display: block;
+                        &:hover {
+                            color: $hover-color;
+                        }
+                    }
+
+            }
+        
+        
+
+
+
+

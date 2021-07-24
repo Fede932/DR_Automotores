@@ -1,0 +1,237 @@
+@charset "UTF-8";
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* Propiedades de las letras */
+/* colores predeterminados */
+/* Propiedades del Footer */
+.footer-prop {
+  font-family: "Montserrat", "Calibri", "Arial";
+  color: #d9e0e6;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: rgba(23, 88, 88, 0.876);
+  margin: auto;
+}
+
+iframe {
+  width: 450px;
+  height: 280px;
+  margin-left: 6px;
+}
+
+.logo-redes {
+  border-radius: 25px;
+  width: 60px;
+}
+
+.copyright {
+  text-align: center;
+  font-family: "Montserrat", "Calibri", "Arial";
+  color: #d9e0e6;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: black;
+}
+
+/* propiedades de imagen logo de la empresa */
+header {
+  text-align: center;
+  text-decoration: none;
+}
+
+.imglogo {
+  width: 600px;
+}
+
+/* Propiedades del nav  */
+.Menu {
+  text-decoration: none;
+  list-style: none;
+  background-color: rgba(23, 88, 88, 0.867);
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.Menu li {
+  float: left;
+}
+.Menu li:hover > ul {
+  display: flex;
+}
+.Menu li a {
+  font-family: "Montserrat", "Calibri", "Arial";
+  color: #d9e0e6;
+  text-decoration: none;
+  font-size: 15px;
+}
+.Menu li a:hover {
+  color: chartreuse;
+}
+.Menu li ul {
+  display: none;
+  position: absolute;
+  flex-direction: column;
+}
+.Menu li ul li {
+  position: relative;
+  display: block;
+  padding: 5px;
+  font-size: 15px;
+  list-style: none;
+}
+.Menu li ul a {
+  font-family: "Montserrat", "Calibri", "Arial";
+  color: #d9e0e6;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: rgba(23, 88, 88, 0.867);
+  display: block;
+}
+.Menu li ul a:hover {
+  color: chartreuse;
+}
+
+/* Propiedades del Body */
+body {
+  font-family: "Montserrat", "Calibri", "Arial";
+  color: #d9e0e6;
+  text-decoration: none;
+  font-size: 40px;
+  background-color: #071b1b;
+}
+
+/* propiedades imagen de WS */
+.logows {
+  position: sticky;
+  top: 10px;
+}
+
+.imgws {
+  border-radius: 25px;
+  width: 60px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  transition: all 1s;
+}
+.imgws:hover {
+  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  /* Para que funcione la transformación en los navegadores indicados */
+}
+
+/* propiedades de sección con items a seleccionar */
+#content {
+  display: grid;
+  width: 95%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  padding-bottom: 35px;
+}
+
+/* Aplico transformaciones a las imàgenes */
+.imagen-item {
+  width: 500px;
+  height: 280px;
+}
+.imagen-item:hover {
+  animation: shadowBox 1s;
+}
+
+@keyframes shadowBox {
+  0% {
+    box-shadow: none;
+  }
+  100% {
+    transform: translate(10px, 20px);
+    -webkit-transform: translate(10px, 20px);
+    -o-transform: translate(10px, 20px);
+    -moz-transform: translate(10px, 20px);
+    box-shadow: -15px -15px rgba(89, 72, 105, 0.767);
+  }
+}
+article h2 {
+  font-family: "Montserrat", "Calibri", "Arial";
+  color: #d9e0e6;
+  text-decoration: none;
+  font-size: 40px;
+}
+article h2:hover {
+  color: chartreuse;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* propiedades del Background */
+.backgroundvideo {
+  position: fixed;
+  /* tamaño del video */
+  min-width: 120%;
+  min-height: 120%;
+  /* abarcamiento en la página- 0% es el total */
+  top: -10%;
+  left: 0%;
+  /* posición inicial del video */
+  transform: translateX(0%);
+  transform: translateY(0%);
+  /* posición en el eje z - -1 es para que quede de fondo */
+  z-index: -1;
+}
+
+/* Propiedades de páginas secundarias */
+.form-label {
+  font-family: "Montserrat", "Calibri", "Arial";
+  color: #d9e0e6;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Propiedades de Grid de pag secundarias - Bootstrap */
+.container {
+  margin-bottom: 20px;
+}
+
+.card-text {
+  font-family: "Montserrat", "Calibri", "Arial";
+  color: #d9e0e6;
+  text-decoration: none;
+  font-size: 20px;
+  color: #175858;
+}
+
+/* Propiedad imagen fondo pág secundarias */
+.backgroundimg {
+  position: fixed;
+  /* tamaño  */
+  min-width: 100%;
+  min-height: 100%;
+  /* abarcamiento en la página- 0% es el total */
+  top: 0%;
+  left: 0%;
+  /* posición inicial del video */
+  transform: translateX(0%);
+  transform: translateY(0%);
+  /* posición en el eje z - -1 es para que quede de fondo */
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  #content {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
