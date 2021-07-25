@@ -208,6 +208,13 @@ a {
   margin-bottom: 20px;
 }
 
+.container .col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
 .card-text {
   font-family: "Montserrat", "Calibri", "Arial";
   color: #d9e0e6;
