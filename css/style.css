@@ -3,6 +3,9 @@
   margin: 0%;
   padding: 0%;
 }
+ol, ul{
+  padding-left: 0;
+}
 
 /* Propiedades de las letras */
 /* colores predeterminados */
@@ -38,8 +41,9 @@ iframe {
 
 /* propiedades de imagen logo de la empresa */
 header {
-  text-align: center;
-  text-decoration: none;
+  display: flex; 
+  align-items: center;
+  flex-direction: column; width: 100%;
 }
 
 .imglogo {
@@ -244,7 +248,7 @@ iframe {
 }
 .imglogo {
   width: 300px; 
-  margin-left: 8%;
+
 }
 
 .nombre {
