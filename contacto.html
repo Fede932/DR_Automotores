@@ -98,15 +98,21 @@
 
     <!-- Sección con formulario de contacto-Bootstrap -->
 
-    <div class="mb-3 container">
-        <label for="exampleFormControlInput1" class="form-label">Email</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="mb-3 container">
-        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-            
+    <form action="email.php" method="POST" name="contact-form">
+        <div class="mb-3 container">  
+            <label for="mail" class="form-label">Email</label>
+            <input type="email"  name="mail" class="form-control" id="mail" placeholder="name@example.com" required>
+          </div>
+          <div class="mb-3 container">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea name="mensaje" class="form-control" id="mensaje" rows="3" required></textarea>
+    
+            <input class="boton-contacto" type="submit" value="Enviar"> 
+        </div>
+    </form>   
+    
+    <!-- ----------------------------- -->        
+    
     <footer>
         <div class="row footer-prop">
             <div class="col-lg-4 col-12">
