@@ -1,348 +1,599 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <!--El conjunto de caracteres universal-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <head>
+    <!--Como se amolda mi sitio a los distintos dispositivos-->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+    />
+    <!-- Metaetiquetas -->
+    <meta
+      name="description"
+      content="Somos una empresa de compra y venta de rodados, autos, motos, camionetas y utilitarios"
+    />
+    <meta
+      name="keywords"
+      content="autos, compra, venta, rodados, utilitarios, motos, camionetas, agencia, financiacion, automotores, moreno, paso del rey, zona oeste"
+    />
+    <!-- Protocolo open graph -->
+    <meta property="og: title" content="DR Automotores" />
+    <meta property="og: image" content="Imagenes/header.jpg" />
+    <meta
+      property="og: description"
+      content="Somos una empresa de compra y venta de rodados, autos, motos, camionetas y utilitarios"
+    />
+    <meta property="og: author" content="DR Automotores" />
+    <!-- Bootstrap CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
 
-        <!--El conjunto de caracteres universal-->
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-        <!--Como se amolda mi sitio a los distintos dispositivos-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-        <!-- Metaetiquetas -->
-        <meta name="description" content="Somos una empresa de compra y venta de rodados, autos, motos, camionetas y utilitarios">
-        <meta name="keywords" content="autos, compra, venta, rodados, utilitarios, motos, camionetas, agencia, financiacion, automotores, moreno, paso del rey, zona oeste">
-        <!-- Protocolo open graph -->
-        <meta property="og: title" content="DR Automotores">
-        <meta property="og: image" content="Imagenes/header.jpg">
-        <meta property="og: description" content="Somos una empresa de compra y venta de rodados, autos, motos, camionetas y utilitarios">
-        <meta property="og: author" content="DR Automotores">
-        <!-- Bootstrap CSS-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    
-        <!-- CSS -->
-        <link rel="stylesheet" href="css/style.css">
-    
-        <!-- animaciones -->
-        <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
-    
-        <!--título de mi pestaña-->
-        <title>DR Automotores-compra y venta de autos</title>
-    </head>
-<!-- Dentro del body se colocan los elementos que se van a visualizar en la pag -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
 
-<body>
+    <!-- animaciones -->
+    <link
+      rel="stylesheet"
+      href="https://raw.github.com/daneden/animate.css/master/animate.css"
+    />
 
+    <!--título de mi pestaña-->
+    <title>DR Automotores-compra y venta de autos</title>
+  </head>
+  <!-- Dentro del body se colocan los elementos que se van a visualizar en la pag -->
+
+  <body>
     <!--  fondo -->
-    <img class="backgroundimg" src="Imagenes/fondo.jpg" alt="">
+    <img class="backgroundimg" src="Imagenes/fondo.jpg" alt="" />
 
     <!--encabezados de h1 a h6 de mayor a menor tamaño respectivamente-->
 
     <!-- logo de WS que se quedará siempre fijo arriba-->
     <section class="logows">
-        <a href="https://wa.me/5491122355745" target="_blank">
-            <img class="imgws" src="Imagenes/img-ws.jpg" alt="Logo WhatsApp"></a>
+      <a href="https://wa.me/5491122355745" target="_blank">
+        <img class="imgws" src="Imagenes/img-ws.jpg" alt="Logo WhatsApp"
+      /></a>
     </section>
-    
+
     <div class="dr">
-        <h1>DR Automotores</h1>
+      <h1>DR Automotores</h1>
     </div>
 
     <!-- logo de la empresa en el Header -->
     <header>
-        <a href="index.html">
-            <img class="imglogo" src="Imagenes/header.jpg" alt="Logo de la empresa">
-        </a> 
+      <a href="index.html">
+        <img
+          class="imglogo"
+          src="Imagenes/header.jpg"
+          alt="Logo de la empresa"
+        />
+      </a>
     </header>
 
     <!-- nav bar -->
 
     <nav>
+      <ul class="Menu">
+        <li>
+          <a href="">
+            <h2 class="nombre">Nosotros</h2>
+          </a>
 
-        <ul class="Menu">
+          <ul>
+            <li><a href="#Nosotros">Quiénes somos</a></li>
+            <li><a href="contacto.html" target="_blank">Contacto</a></li>
+            <li><a href="#Encontranos">Encontranos</a></li>
+          </ul>
+        </li>
 
-            <li><a href="">
-                    <h2 class="nombre">Nosotros</h2>
-                </a>
+        <li>
+          <a href="autos.html" target="_blank">
+            <h2 class="nombre">Autos</h2>
+          </a>
+        </li>
 
-                <ul>
-                    <li><a href="#Nosotros">Quiénes somos</a></li>
-                    <li><a href="contacto.html" target="_blank">Contacto</a></li>
-                    <li><a href="#Encontranos">Encontranos</a></li>
-                </ul>
+        <li>
+          <a href="camionetas.html" target="_blank">
+            <h2 class="nombre">Camionetas</h2>
+          </a>
+        </li>
 
-            </li>
+        <li>
+          <a href="motos.html" target="_blank">
+            <h2 class="nombre">Motos</h2>
+          </a>
+        </li>
 
-            <li><a href="autos.html" target="_blank">
-                    <h2 class="nombre">Autos</h2>
-                </a>
-            </li>
-
-            <li><a href="camionetas.html" target="_blank">
-                    <h2 class="nombre">Camionetas</h2>
-                </a>
-            </li>
-
-            <li><a href="motos.html" target="_blank">
-                    <h2 class="nombre">Motos</h2>
-                </a>
-            </li>
-
-            <li><a href="utilitarios.html" target="_blank">
-                    <h2 class="nombre">Utilitarios</h2>
-                </a>
-            </li>
-        </ul>
+        <li>
+          <a href="utilitarios.html" target="_blank">
+            <h2 class="nombre">Utilitarios</h2>
+          </a>
+        </li>
+      </ul>
     </nav>
-            
 
-   <!-- Sección con Items a seleccionar. Card y carrusel. -->
-    
-   <h2 class="nombre">Autos</h2>
- 
-   <div class="container">
-       <div class="row">
-         <div class="col">
-           <div class="card" style="width: 18rem;">
-               <div id="carouselExampleControls1" class="carousel slide" data-bs-interval="false">
-               <div class="carousel-inner">
-                   <div class="carousel-item active">
-                   <img src="Imagenes/Corolla1.jpeg" class="d-block w-100" alt="Auto">
-                   </div>
-                   <div class="carousel-item">
-                   <img src="Imagenes/Corolla2.jpeg" class="d-block w-100" alt="Auto">
-                   </div>
-                   <div class="carousel-item">
-                   <img src="Imagenes/Partner1.jpeg" class="d-block w-100" alt="Auto">
-                   </div>
-               </div>
-               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
-                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                   <span class="visually-hidden">Previous</span>
-               </button>
-               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
-                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                   <span class="visually-hidden">Next</span>
-               </button>
-               </div>
-              <div class="card-body">
-                 <p class="card-text">Corolla 2002 <br> 5 puertas <br> 200.000 km </p>
-               </div>
-             </div>
-         </div>
+    <!-- Sección con Items a seleccionar. Card y carrusel. -->
 
-         <div class="col">
-           <div class="card" style="width: 18rem;">
-               <div id="carouselExampleControls2" class="carousel slide" data-bs-interval="false">
-                   <div class="carousel-inner">
-                       <div class="carousel-item active">
-                       <img src="Imagenes/Corolla1.jpeg" class="d-block w-100" alt="Auto">
-                       </div>
-                       <div class="carousel-item">
-                       <img src="Imagenes/Corolla2.jpeg" class="d-block w-100" alt="Auto">
-                       </div>
-                       <div class="carousel-item">
-                       <img src="Imagenes/Partner1.jpeg" class="d-block w-100" alt="Auto">
-                       </div>
-                   </div>
-                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
-                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                       <span class="visually-hidden">Previous</span>
-                   </button>
-                   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
-                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                       <span class="visually-hidden">Next</span>
-                   </button>
-                   </div>
-                   <div class="card-body">
-                   <p class="card-text">Corolla 2002 <br> 5 puertas <br> 200.000 km </p>
-               </div>
-             </div>
-         </div>
-         <div class="col">
-           <div class="card" style="width: 18rem;">
-               <div id="carouselExampleControls3" class="carousel slide" data-bs-interval="false">
-                   <div class="carousel-inner">
-                       <div class="carousel-item active">
-                       <img src="Imagenes/Corolla1.jpeg" class="d-block w-100" alt="Auto">
-                       </div>
-                       <div class="carousel-item">
-                       <img src="Imagenes/Corolla2.jpeg" class="d-block w-100" alt="Auto">
-                       </div>
-                       <div class="carousel-item">
-                       <img src="Imagenes/Partner1.jpeg" class="d-block w-100" alt="Auto">
-                       </div>
-                   </div>
-                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
-                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                       <span class="visually-hidden">Previous</span>
-                   </button>
-                   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
-                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                       <span class="visually-hidden">Next</span>
-                   </button>
-                   </div>
-                   <div class="card-body">
-                   <p class="card-text">Corolla 2002 <br> 5 puertas <br> 200.000 km </p>
-               </div>
-             </div>
-         </div>
-       </div>
-     </div>
+    <h2 class="nombre">Autos</h2>
 
-     <div class="container">
-       <div class="row">
-         <div class="col">
-           <div class="card" style="width: 18rem;">
-               <div id="carouselExampleControls4" class="carousel slide" data-bs-interval="false">
-                   <div class="carousel-inner">
-                       <div class="carousel-item active">
-                       <img src="Imagenes/Corolla1.jpeg" class="d-block w-100" alt="Auto">
-                       </div>
-                       <div class="carousel-item">
-                       <img src="Imagenes/Corolla2.jpeg" class="d-block w-100" alt="Auto">
-                       </div>
-                       <div class="carousel-item">
-                       <img src="Imagenes/Partner1.jpeg" class="d-block w-100" alt="Auto">
-                       </div>
-                   </div>
-                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="prev">
-                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                       <span class="visually-hidden">Previous</span>
-                   </button>
-                   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="next">
-                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                       <span class="visually-hidden">Next</span>
-                   </button>
-                   </div>
-                   <div class="card-body">
-                   <p class="card-text">Corolla 2002 <br> 5 puertas <br> 200.000 km </p>
-               </div>
-             </div>
-         </div>
-         <div class="col">
-           <div class="card" style="width: 18rem;">
-               <div id="carouselExampleControls5" class="carousel slide" data-bs-interval="false">
-                   <div class="carousel-inner">
-                       <div class="carousel-item active">
-                       <img src="Imagenes/Corolla1.jpeg" class="d-block w-100" alt="Auto">
-                       </div>
-                       <div class="carousel-item">
-                       <img src="Imagenes/Corolla2.jpeg" class="d-block w-100" alt="Auto">
-                       </div>
-                       <div class="carousel-item">
-                       <img src="Imagenes/Partner1.jpeg" class="d-block w-100" alt="Auto">
-                       </div>
-                   </div>
-                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="prev">
-                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                       <span class="visually-hidden">Previous</span>
-                   </button>
-                   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="next">
-                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                       <span class="visually-hidden">Next</span>
-                   </button>
-                   </div>
-                   <div class="card-body">
-                   <p class="card-text">Corolla 2002 <br> 5 puertas <br> 200.000 km </p>
-               </div>
-             </div>
-         </div>
-         <div class="col">
-           <div class="card" style="width: 18rem;">
-               <div id="carouselExampleControls6" class="carousel slide" data-bs-interval="false">
-                   <div class="carousel-inner">
-                       <div class="carousel-item active">
-                       <img src="Imagenes/Corolla1.jpeg" class="d-block w-100" alt="Auto">
-                       </div>
-                       <div class="carousel-item">
-                       <img src="Imagenes/Corolla2.jpeg" class="d-block w-100" alt="Auto">
-                       </div>
-                       <div class="carousel-item">
-                       <img src="Imagenes/Partner1.jpeg" class="d-block w-100" alt="Auto">
-                       </div>
-                   </div>
-                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="prev">
-                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                       <span class="visually-hidden">Previous</span>
-                   </button>
-                   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="next">
-                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                       <span class="visually-hidden">Next</span>
-                   </button>
-                   </div>
-                   <div class="card-body">
-                   <p class="card-text">Corolla 2002 <br> 5 puertas <br> 200.000 km </p>
-               </div>
-             </div>
-         </div>
-       </div>
-     </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <div
+              id="carouselExampleControls1"
+              class="carousel slide"
+              data-bs-interval="false"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="Imagenes/fordfiesta1.jpg"
+                    class="d-block w-100"
+                    alt="Auto"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="Imagenes/fordfiesta2.jpg"
+                    class="d-block w-100"
+                    alt="Auto"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="Imagenes/fordfiesta3.jpg"
+                    class="d-block w-100"
+                    alt="Auto"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls1"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls1"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                Ford Fiesta 2016 <br />
+                5 puertas <br />
+                60.000 km
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <div
+              id="carouselExampleControls2"
+              class="carousel slide"
+              data-bs-interval="false"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="Imagenes/fordfiesta1.jpg"
+                    class="d-block w-100"
+                    alt="Auto"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="Imagenes/fordfiesta2.jpg"
+                    class="d-block w-100"
+                    alt="Auto"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="Imagenes/fordfiesta3.jpg"
+                    class="d-block w-100"
+                    alt="Auto"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls2"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls2"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                Ford Fiesta 2016 <br />
+                5 puertas <br />
+                60.000 km
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <div
+              id="carouselExampleControls3"
+              class="carousel slide"
+              data-bs-interval="false"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="Imagenes/fordfiesta1.jpg"
+                    class="d-block w-100"
+                    alt="Auto"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="Imagenes/fordfiesta2.jpg"
+                    class="d-block w-100"
+                    alt="Auto"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="Imagenes/fordfiesta3.jpg"
+                    class="d-block w-100"
+                    alt="Auto"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls3"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls3"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                Ford Fiesta 2016 <br />
+                5 puertas <br />
+                60.000 km
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <div
+              id="carouselExampleControls4"
+              class="carousel slide"
+              data-bs-interval="false"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="Imagenes/fordfiesta1.jpg"
+                    class="d-block w-100"
+                    alt="Auto"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="Imagenes/fordfiesta2.jpg"
+                    class="d-block w-100"
+                    alt="Auto"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="Imagenes/fordfiesta3.jpg"
+                    class="d-block w-100"
+                    alt="Auto"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls4"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls4"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                Ford Fiesta 2016 <br />
+                5 puertas <br />
+                60.000 km
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <div
+              id="carouselExampleControls5"
+              class="carousel slide"
+              data-bs-interval="false"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="Imagenes/fordfiesta1.jpg"
+                    class="d-block w-100"
+                    alt="Auto"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="Imagenes/fordfiesta2.jpg"
+                    class="d-block w-100"
+                    alt="Auto"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="Imagenes/fordfiesta3.jpg"
+                    class="d-block w-100"
+                    alt="Auto"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls5"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls5"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                Ford Fiesta 2016 <br />
+                5 puertas <br />
+                60.000 km
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <div
+              id="carouselExampleControls6"
+              class="carousel slide"
+              data-bs-interval="false"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="Imagenes/fordfiesta1.jpg"
+                    class="d-block w-100"
+                    alt="Auto"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="Imagenes/fordfiesta2.jpg"
+                    class="d-block w-100"
+                    alt="Auto"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="Imagenes/fordfiesta3.jpg"
+                    class="d-block w-100"
+                    alt="Auto"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls6"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls6"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                Ford Fiesta 2016 <br />
+                5 puertas <br />
+                60.000 km
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- paginas -->
     <nav aria-label="...">
-        <ul class="pagination pagination-sm justify-content-center">
-            <li class="page-item"><a class="page-link" href="autos.html">1</a></li>
-            <li class="page-item active" aria-current="page">
-            <span class="page-link">2</span>
-          </li>
-          <li class="page-item"><a class="page-link" href="autos-3.html">3</a></li>
-        </ul>
-      </nav>
+      <ul class="pagination pagination-sm justify-content-center">
+        <li class="page-item"><a class="page-link" href="autos.html">1</a></li>
+        <li class="page-item active" aria-current="page">
+          <span class="page-link">2</span>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="autos-3.html">3</a>
+        </li>
+      </ul>
+    </nav>
 
-          
-      <footer>
-        <div class="row footer-prop">
-            <div class="col-lg-4 col-12">
-               <section id="Encontranos" class="text-center">
-                    <h2 class="text-center">Encontranos</h2>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d410.2752032417941!2d-58.77493029944039!3d-34.64961062520578!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc95a9d12e8469%3A0xcc14581a7c2b3afc!2sDDR%20AUTOMOTORES!5e0!3m2!1ses!2sar!4v1622427629047!5m2!1ses!2sar"
-                        ></iframe>
-                </section>
-            </div>
-            <div class="col-1"></div>
-            <div  class="col-lg-4 col-12">
-                <section id="Nosotros">
-                    <h2 class="text-center">Quiénes somos</h2>
-                    <p class="text-center">
-                        Somos una empresa familiar con muchos años de experiencia.
-                        Radicada en la localidad de Paso del Rey desde el 2007
-                        somos la agencia de autos líder de la zona.
-                        En DR Automotores encontrá los mejores vehículos
-                        al mejor precio del mercado y con la mejor financiación.
-                    </p>
-                </section>
-            </div>
-            <div class="col-1"></div>
-            <div class="col-lg-2 col-12 text-center">
-                
-                <h2 class="text-center">Nuestras Redes</h2>
-               
-                <a href="https://www.facebook.com/DR.Automoviles" target="_blank">
-                <img class="logo-redes" src="Imagenes/img-fb.png" alt="Logo Facebook"></a> Facebook<br>
-                <a href="https://www.instagram.com/drautomoviles/" target="_blank">
-                <img class="logo-redes" src="Imagenes/img-itg.png" alt="Logo Instagram"> </a>Instagram<br>
-                 <a href="https://wa.me/5491122355745" target="_blank">
-                <img class="logo-redes" src="Imagenes/img-ws.jpg" alt="Logo WhatsApp"></a>Whatsapp<br>
-            
-            </div>
+    <footer>
+      <div class="row footer-prop">
+        <div class="col-lg-4 col-12">
+          <section id="Encontranos" class="text-center">
+            <h2 class="text-center">Encontranos</h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d410.2752032417941!2d-58.77493029944039!3d-34.64961062520578!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc95a9d12e8469%3A0xcc14581a7c2b3afc!2sDDR%20AUTOMOTORES!5e0!3m2!1ses!2sar!4v1622427629047!5m2!1ses!2sar"
+            ></iframe>
+          </section>
         </div>
+        <div class="col-1"></div>
+        <div class="col-lg-4 col-12">
+          <section id="Nosotros">
+            <h2 class="text-center">Quiénes somos</h2>
+            <p class="text-center">
+              Somos una empresa familiar con muchos años de experiencia.
+              Radicada en la localidad de Paso del Rey desde el 2007 somos la
+              agencia de autos líder de la zona. En DR Automotores encontrá los
+              mejores vehículos al mejor precio del mercado y con la mejor
+              financiación.
+            </p>
+          </section>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-lg-2 col-12 text-center">
+          <h2 class="text-center">Nuestras Redes</h2>
+
+          <a href="https://www.facebook.com/DR.Automoviles" target="_blank">
+            <img
+              class="logo-redes"
+              src="Imagenes/img-fb.png"
+              alt="Logo Facebook"
+          /></a>
+          Facebook<br />
+          <a href="https://www.instagram.com/drautomoviles/" target="_blank">
+            <img
+              class="logo-redes"
+              src="Imagenes/img-itg.png"
+              alt="Logo Instagram"
+            /> </a
+          >Instagram<br />
+          <a href="https://wa.me/5491122355745" target="_blank">
+            <img
+              class="logo-redes"
+              src="Imagenes/img-ws.jpg"
+              alt="Logo WhatsApp" /></a
+          >Whatsapp<br />
+        </div>
+      </div>
     </footer>
 
-    <div class="copyright">
-        DR Automotores &copy; 2021
-    </div>
+    <div class="copyright">DR Automotores &copy; 2021</div>
 
     <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
-        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
-    </script>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
