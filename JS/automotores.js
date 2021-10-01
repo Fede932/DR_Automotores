@@ -5,6 +5,14 @@ $.ajax({
     success: function(data){
         if(data.ok) {
             console.log(data.data)
+            document.getElementById("respuesta").innerHTML = data.data;
+            document.getElementById("respuesta").innerHTML = url;
         }
     }
-}); 
+
+});
+
+
+const boton = document.getElementById("btnSearch").addEventListener("click", () =>{ ajax()});
+
+    

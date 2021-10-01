@@ -63,11 +63,11 @@ function crearNodo(res) {
   nodoParent.classList.add("listado-resultado");
   nodoParent.addEventListener("click", () => {
     console.log("ir a la pagina " + res.url);
-   // window.location.href = res.url;
+  window.location.href = res.url;
 
     const url = window.location.origin + "/" + res.url;
 console.log(url)
-    //window.location.href = url;
+  window.location.href = url;
   });
 
   const nodoImg = document.createElement("img");
